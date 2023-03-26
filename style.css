@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #686de0;
+  background: url(dad.png);
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,8 @@ body {
 }
 
 .container {
-  background-color: url(dad.png)
-  filter: blur(1px)
+  background-color: #fff;
+  filter: opacity(75%);
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   padding: 50px 20px;
